@@ -1,0 +1,98 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Alice"
+    },
+    {
+      "id": "SpaceX"
+    },
+    {
+      "id": "California"
+    },
+    {
+      "id": "alice"
+    },
+    {
+      "id": "ABC company"
+    },
+    {
+      "id": "mumbai"
+    },
+    {
+      "id": "Microsoft"
+    },
+    {
+      "id": "Redmond"
+    },
+    {
+      "id": "Bill Gates"
+    },
+    {
+      "id": "Bob"
+    },
+    {
+      "id": "Google"
+    },
+    {
+      "id": "Mountain View"
+    },
+    {
+      "id": "Sundar Pichai"
+    }
+  ],
+  "links": [
+    {
+      "rel": "founded",
+      "source": "Alice",
+      "target": "SpaceX"
+    },
+    {
+      "rel": "works_at",
+      "source": "Alice",
+      "target": "Microsoft"
+    },
+    {
+      "rel": "is_based_in",
+      "source": "SpaceX",
+      "target": "California"
+    },
+    {
+      "rel": "works_from",
+      "source": "alice",
+      "target": "ABC company"
+    },
+    {
+      "rel": "works_from",
+      "source": "alice",
+      "target": "mumbai"
+    },
+    {
+      "rel": "is_headquartered_in",
+      "source": "Microsoft",
+      "target": "Redmond"
+    },
+    {
+      "rel": "was_founded_by",
+      "source": "Microsoft",
+      "target": "Bill Gates"
+    },
+    {
+      "rel": "works_at",
+      "source": "Bob",
+      "target": "Google"
+    },
+    {
+      "rel": "is_based_in",
+      "source": "Google",
+      "target": "Mountain View"
+    },
+    {
+      "rel": "is_CEO_of",
+      "source": "Sundar Pichai",
+      "target": "Google"
+    }
+  ]
+}

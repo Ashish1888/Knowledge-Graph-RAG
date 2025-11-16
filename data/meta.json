@@ -1,0 +1,24 @@
+[
+  {
+    "doc_id": "d1",
+    "chunk_id": "d1::chunk::0",
+    "text": "Alice founded SpaceX. SpaceX is based in California."
+  },
+  {
+    "doc_id": "d1",
+    "chunk_id": "d1::chunk::0",
+    "text": "alice works from ABC company,she works from mumbai."
+  },
+  {
+    "doc_id": "doc1",
+    "chunk_id": "doc1::chunk::0",
+    "text": "Alice works at Microsoft. Microsoft is headquartered in Redmond and it was founded by Bill Gates.",
+    "source": "doc1"
+  },
+  {
+    "doc_id": "doc2",
+    "chunk_id": "doc2::chunk::0",
+    "text": "Bob works at Google. Google is based in Mountain View. Sundar Pichai is the CEO of Google.",
+    "source": "doc2"
+  }
+]
